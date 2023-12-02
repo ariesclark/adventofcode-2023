@@ -1,5 +1,3 @@
-/* eslint-disable unicorn/prefer-module */
-/* eslint-disable unicorn/prefer-top-level-await */
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 

@@ -3,5 +3,9 @@ process.env["ESLINT_PROJECT_ROOT"] = __dirname;
 
 module.exports = {
 	root: true,
-	extends: ["@ariesclark/eslint-config"]
+	extends: ["@ariesclark/eslint-config"],
+	rules: {
+		"unicorn/prefer-module": "off",
+		"unicorn/prefer-top-level-await": "off"
+	}
 };
